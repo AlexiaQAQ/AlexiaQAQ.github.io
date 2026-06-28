@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexia · 个人简历</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="mouse-glow"></div>
+<button class="theme-toggle" title="切换黑夜模式">&#9790;</button>
+<div class="resume">
+
+  <!-- ====== 侧边栏 ====== -->
+  <aside class="sidebar">
+    <div class="avatar">
+      <img src="img/head_img.jpg" alt="头像">
+    </div>
+    <div class="name">Alexia</div>
+
+    <div class="info-block">
+      <h3>联系方式</h3>
+      <div class="item"><span class="icon">&#9742;</span> 18122051230</div>
+      <div class="item"><span class="icon">&#9993;</span> 2587447860@qq.com</div>
+      <div class="item"><span class="icon">&#9873;</span> 广东省深圳市</div>
+    </div>
+
+    <div class="info-block">
+      <h3>专业技能</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">C/C++</span>
+        <span class="skill-tag">STM32</span>
+        <span class="skill-tag">ROS</span>
+        <span class="skill-tag">RTOS</span>
+        <span class="skill-tag">Keil</span>
+        <span class="skill-tag">VS Code</span>
+        <span class="skill-tag">CLion</span>
+        <span class="skill-tag">Claude Code</span>
+        <span class="skill-tag">Cadence</span>
+        <span class="skill-tag">PADS</span>
+        <span class="skill-tag">嘉立创EDA</span>
+        <span class="skill-tag">CAN</span>
+        <span class="skill-tag">UART/SPI/I2C</span>
+        <span class="skill-tag">电机控制</span>
+        <span class="skill-tag">传感器</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ====== 主体 ====== -->
+  <main class="main">
+
+    <!-- 求职意向 -->
+    <div class="section">
+      <h2>求职意向</h2>
+      <span class="target-text">嵌入式工程师 / 硬件工程师</span>
+    </div>
+
+    <!-- 教育背景 -->
+    <div class="section">
+      <h2>教育背景</h2>
+      <div class="edu-item">
+        <div class="school">深圳职业技术大学 · 电子与通信工程学院</div>
+        <div class="meta">集成电路技术 · 大二在读 · 绩点 3.6 / 专业排名第一 · 校二等奖学金</div>
+      </div>
+    </div>
+
+    <!-- 竞赛获奖 -->
+    <div class="section">
+      <h2>竞赛获奖</h2>
+      <ul class="award-list">
+        <li>
+          <span class="level province-1">省一等奖</span>
+          全国大学生机械创新设计大赛 · 广东省一等奖
+        </li>
+        <li>
+          <span class="level national">全国二等奖</span>
+          <div>
+            全国大学生机器人竞赛 (ROBOCON) · 全国二等奖
+            <div class="role-detail">大一：电控与硬件研发 | 大二：队长，统筹全队技术方案与进度</div>
+          </div>
+        </li>
+        <li>
+          <span class="level province-1">省一等奖</span>
+          蓝桥杯全国软件和信息技术专业人才大赛 · 单片机应用与开发 · 广东省一等奖
+        </li>
+        <li>
+          <span class="level national">全国二等奖</span>
+          蓝桥杯全国软件和信息技术专业人才大赛 · 单片机应用与开发 · 全国二等奖
+        </li>
+        <li>
+          <span class="level province-2">省二等奖</span>
+          全国大学生电子设计大赛 · 广东省二等奖
+        </li>
+        <li>
+          <span class="level province-2">省二等奖</span>
+          全国大学生智能汽车竞赛 · 广东省二等奖
+        </li>
+      </ul>
+    </div>
+
+    <!-- 项目经历 -->
+    <div class="section">
+      <h2>项目经历</h2>
+      <div class="project-card">
+        <h3>工业巡检机器人</h3>
+        <p>
+          基于 STM32 主控与 ROS 机器人操作系统的自主导航巡检平台。STM32 负责底层驱动与传感器数据采集（IMU、里程计、超声波及红外传感器），通过串口与上位机 ROS 节点通信；ROS 端实现 SLAM 定位、路径规划与自主导航。实现了室内环境的全自主巡检、异常检测与数据回传功能。
+        </p>
+        <div class="tech-stack">
+          <span class="tech">STM32F4</span>
+          <span class="tech">ROS Noetic</span>
+          <span class="tech">C/C++</span>
+          <span class="tech">SLAM</span>
+          <span class="tech">IMU</span>
+          <span class="tech">电机驱动</span>
+          <span class="tech">串口通信</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
