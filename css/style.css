@@ -103,6 +103,17 @@ body {
   border: 1px solid rgba(255,255,255,0.15);
 }
 
+.external-link {
+  color: #dbd5f0;
+  text-decoration: none;
+  font-size: 13.5px;
+  transition: opacity 0.2s;
+}
+.external-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 /* ====== MAIN ====== */
 .main {
   padding: 40px 36px 32px;
@@ -265,6 +276,10 @@ body {
   background: rgba(255,255,255,0.08);
   color: #c8c0e0;
   border-color: rgba(255,255,255,0.1);
+}
+
+[data-theme="dark"] .external-link {
+  color: #c8c0e0;
 }
 
 [data-theme="dark"] .resume {
